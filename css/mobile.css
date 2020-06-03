@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+
+nav{
+    display: inherit;
+    flex-direction: column;
+    text-align: center;
+    }
+nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+nav li {
+        padding: 5px 10px 5px;
+        list-style: none;
+    }
+.products{
+        display: inherit;
+        height: auto;
+    }
+
+.product{
+        margin-top: auto;
+    }
+
+.main-section{
+    padding: 5%;
+}
+
+.blocks, .artist-blocks{
+    display: inherit;
+    min-height: 100vh;
+}
+footer{
+    margin-top: auto;
+}
+
+}

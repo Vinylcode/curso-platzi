@@ -1,0 +1,27 @@
+body{
+    background-color: var(--blackcolor);
+    color: var(--whitecolor);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.content-paypal{
+    padding: 10px;
+}
+.content-paypal h3{
+    text-align: center;
+}
+.content-paypal img{
+    max-width: 30%;
+}
+
+.content-paypal a{
+    color: var(--rojovinyl);
+}
+
+.gray img{
+-webkit-filter: grayscale(100%);
